@@ -1,1 +1,58 @@
-<p>post works!</p>
+<div class="bg-white w-[560px] rounded-lg shadow p-6 mb-8">
+    <div class="flex justify-center w-full">
+        <div class="flex-shrink-0 mr-5">
+            <div class="
+                bg-gray-300 
+                text-blue-600
+                rounded-full
+                w-12 h-12
+                cursor-pointer
+                flex
+                items-center
+                justify-center">
+                LW
+            </div>
+        </div>
+
+        <div class="flex-1">
+            <textarea class="
+                bg-gray-200 focus:bg-gray-100
+                focus:outline-none focus:outline
+                resize-none
+                border border-transparent
+                rounded-lg
+                mb-2 py-2 px-4 w-full
+                block
+                appearance-none
+                font-light
+                placeholder-gray-700"
+                    rows="3"
+                    placeholder="What's happening..."
+                    [maxLength]="tweetMaxLength"
+                    [(ngModel)]="tweetMenssage"
+                    (input)="countTweet()"> 
+            </textarea>
+
+            <div class="w-auto border rounded-lg">            
+            </div>
+
+            <div class="flex justify-end items-baseline" >
+                <div class="mr-5 font-thin text-gray-500">
+                    <p>{{tweetRemaining}}</p>
+                </div>
+                <div class="mt-5">
+                    <button class="
+                        w-32 py-2 px-5
+                        focus: outline-none
+                        border border-transparent
+                        rounded-lg shadow
+                        bg-blue-500 hover:bg-blue-600
+                        font-medium text-white text-center"
+                            (click)="sendTweet()">
+                        Tweet
+                    </button>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>

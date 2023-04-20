@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent {
+  tweetMenssage:string = "";
+  tweetMaxLength:number = 240;
+  tweetRemaining:number = this.tweetMaxLength;
 
+  countTweet():void{
+    this.tweetRemaining = this.tweetMaxLength - this.tweetMenssage.length;
+  }
+
+  sendTweet():void{
+    alert(this.tweetMenssage);
+  }
 }
