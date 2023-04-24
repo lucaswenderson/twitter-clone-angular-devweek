@@ -3,7 +3,7 @@
         <div class="flex-shrink-0 mr-5">
             <div class="
                 bg-gray-300 
-                text-blue-600
+                text-black
                 rounded-full
                 w-12 h-12
                 cursor-pointer
@@ -30,7 +30,8 @@
                     placeholder="What's happening..."
                     [maxLength]="tweetMaxLength"
                     [(ngModel)]="tweetMenssage"
-                    (input)="countTweet()"> 
+                    (input)="countTweet()"
+                    (keyup.enter)="sendTweet()"> 
             </textarea>
 
             <div class="w-auto border rounded-lg">            

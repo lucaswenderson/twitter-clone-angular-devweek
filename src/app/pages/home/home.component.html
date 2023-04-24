@@ -6,11 +6,14 @@
     <app-post />
 </div>
 
-<div class="flex flex-col items-center justify-center container mx-auto">
-    <app-tweet tweetMenssage="Test1" />
-    <app-tweet tweetMenssage="Test2" />
+<div class="flex flex-col
+            items-center
+            justify-center
+            container mx-auto"
+        *ngFor="let tw of tweets">
+    <app-tweet [tweetMenssage] = tw />
 </div>
 
-<footer class="fixed bottom-0 mx-auto w-full">
+<footer class="bottom-0 mx-auto w-full">
     <app-footer></app-footer>
 </footer>
