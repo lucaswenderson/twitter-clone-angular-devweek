@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { MessagesService } from './services/messages.service';
+import { AvatarComponent } from './components/avatar/avatar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { MessagesService } from './services/messages.service';
     PostComponent,
     TweetComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    AvatarComponent
   ],
   imports: [
     BrowserModule,
