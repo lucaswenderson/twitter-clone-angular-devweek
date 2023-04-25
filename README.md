@@ -20,9 +20,6 @@ Execute `ng test` para executar os testes unitários via [Karma](https://karma-r
 
 ## Ajuda adicional 🆘
 
-Para obter mais ajuda sobre o Angular CLI, use `ng help` ou vá para a página de [Visão geral e referência de comandos do Angular CLI](https://angular.io/cli). 
-
-Alguns dos códigos deste projeto podem ser testados acessando meu perfil na plataforma do Repl it seguindo o link: https://replit.com/@LucasWenderson.
+Para obter mais ajuda sobre o Angular CLI, use `ng help` ou vá para a página de [Visão geral e referência de comandos do Angular CLI](https://angular.io/cli).
 
 Espero que esse projeto te ajude a entender melhor o Angular CLI. Se precisar de mais ajuda, é só entrar em contato comigo! 😊
-
