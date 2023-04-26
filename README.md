@@ -2,6 +2,10 @@
 
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) na versão 15.2.6.
 
+## Servidor de Online 🚀
+
+Para aceesar o projeto online basta acessar o  [link](https://lucaswenderson.github.io/twitter-clone-angular-devweek/).
+
 ## Servidor de desenvolvimento 🚀
 
 Para rodar o servidor de desenvolvimento, execute `ng serve`. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você mudar algum dos arquivos de origem.
